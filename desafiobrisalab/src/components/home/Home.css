@@ -1,0 +1,68 @@
+.appBar {
+  background-color: #ffcb05;
+  position: absolute;
+  width: 1440px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  display: inline;
+}
+.logo {
+  position: absolute;
+  width: 75px;
+  height: 30px;
+  left: 138px;
+  top: 8px;
+}
+.textAppBar {
+  position: absolute;
+  width: 57px;
+  height: 18px;
+  left: 594px;
+  top: 16px;
+  padding-right: 54px;
+}
+
+h3 {
+color: #1e1e1e;
+  position: absolute;
+  width: 366px;
+  height: 36px;
+  left: 537px;
+  top: 413px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-align: center;
+}
+
+h5{
+    position: absolute;
+width: 366px;
+height: 42px;
+left: 537px;
+top: 458px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+
+
+
+color: #7D7E80;
+}
+
+.astronaut {
+  position: absolute;
+  width: 516px;
+  height: 344px;
+  left: 462px;
+  top: 75px;
+}

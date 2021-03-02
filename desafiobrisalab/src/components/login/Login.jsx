@@ -2,9 +2,7 @@ import React from "react";
 import logo from "./image1.png";
 import imageSide from "./light1.png";
 import LoginButton from "./LoginButton";
-import ThemeBbutton from "./ThemeButton";
-
-
+import Form from "./FormsLogin";
 
 export default (props) => {
   return (
@@ -21,11 +19,10 @@ export default (props) => {
         <img src={imageSide}></img>
       </div>
 
-      <div >
-        <LoginButton></LoginButton>
-      </div>
+      <Form></Form>
+      
 
-
+      <LoginButton></LoginButton>
       
     </div>
   );

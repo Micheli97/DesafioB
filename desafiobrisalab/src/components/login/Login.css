@@ -44,7 +44,7 @@
   background-color: #ffcb05;
   border-radius: 8px;
   border-color: #ffcb05;
-  
+
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -52,6 +52,36 @@
   line-height: 24px;
   color: #1e1e1e;
   text-align: center;
+}
+
+.inputs{
+  width: 365px;
+  height: 54px;
+  top: 344px;
+  left: 138px;
+
+  border: 1px solid #7D7E80;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  position: absolute;
+
+}
+.textInput{
+  height: 18px;
+  width: 270px;
+  top: 362px;
+  left: 164px;
+
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+
+
+
 }
 
 
