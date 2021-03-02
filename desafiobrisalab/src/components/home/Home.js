@@ -3,7 +3,7 @@ import astronaut from "./Astronaut-pana1.png";
 import image4 from "./image4.png";
 import "./Home.css";
 
-export default (props) => {
+function Home (){
   return (
     <div>
          <nav className='navBar'>
@@ -29,4 +29,6 @@ export default (props) => {
       </div>
     </div>
   );
-};
+}
+
+export default Home
