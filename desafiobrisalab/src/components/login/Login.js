@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./image1.png";
 import imageSide from "./light1.png";
 import LoginButton from "./LoginButton";
-
+import Forms from "./Foms";
 
 function LoginScreen(){
     return (
@@ -18,6 +18,8 @@ function LoginScreen(){
           <div className="imageSide">
             <img src={imageSide}></img>
           </div>
+
+          <Forms></Forms>
         
           <LoginButton></LoginButton>
           

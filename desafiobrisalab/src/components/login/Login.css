@@ -1,19 +1,17 @@
-.logo{
+.logo {
   width: 206px;
   height: 76px;
   top: 33px;
   left: 138px;
   position: absolute;
- 
 }
 
-.imageSide{
+.imageSide {
   width: 883px;
   height: 715px;
   left: 557px;
 
   position: absolute;
-
 }
 
 .title {
@@ -34,7 +32,7 @@
   color: #1e1e1e;
 }
 
-.loginButton{
+.loginButton {
   position: absolute;
   width: 365px;
   height: 54px;
@@ -54,35 +52,30 @@
   text-align: center;
 }
 
-.inputs{
+.inputEmail {
   width: 365px;
   height: 54px;
   top: 344px;
   left: 138px;
-
-  border: 1px solid #7D7E80;
+  
+  position: absolute;
+  border: 1px solid #7d7e80;
   box-sizing: border-box;
   border-radius: 8px;
-
-  position: absolute;
-
-}
-.textInput{
-  height: 18px;
-  width: 270px;
-  top: 362px;
-  left: 164px;
-
-  position: absolute;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
-
-
+  padding-left: 15px;
 
 }
 
+.inputSenha {
+  position: absolute;
+  width: 365px;
+  height: 54px;
+  left: 138px;
+  top: 413px;
+  padding-left: 15px;
 
+  border: 1px solid #7d7e80;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
 
