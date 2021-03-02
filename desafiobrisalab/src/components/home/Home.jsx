@@ -1,21 +1,31 @@
 import React from "react";
 import astronaut from "./Astronaut-pana1.png";
-import SearchButton from "./searchPokemonsButton";
-import logo from "./image4.png";
+import image4 from "./image4.png";
 import "./Home.css";
 
 export default (props) => {
   return (
     <div>
-      <div className="appBar">
-        <img src={logo} className="logo"></img>
-      </div>
-      
+         <nav className='navBar'>
+             <img src = {image4} className="logo"></img>
+            <ul>
+                <li>
+                    <a>Favoritos</a>
+                </li>
+                <li>
+                    <a>Procurar</a>
+                </li>
+                <li>
+                    <a>Ver todos</a>
+                </li>
+            </ul>
+        </nav>
+    
       <div>
         <img src={astronaut} className="astronaut"></img>
         <h3>Está meio vazio por aqui!</h3>
         <h5>Procure por pokémons para adicioná-los aos seus favoritos</h5>
-        <SearchButton></SearchButton>
+        <button className="buttonSearch">Procurar pokémons</button>
       </div>
     </div>
   );
