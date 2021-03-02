@@ -18,10 +18,7 @@ export default (props) => {
       <div className="imageSide">
         <img src={imageSide}></img>
       </div>
-
-      <Form></Form>
-      
-
+    
       <LoginButton></LoginButton>
       
     </div>

@@ -8,11 +8,11 @@
   display: inline;
 }
 .logo {
-  position: absolute;
-  width: 75px;
-  height: 30px;
-  left: 138px;
-  top: 8px;
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    left: 138px;
+    top: 8px;
 }
 .textAppBar {
   position: absolute;
@@ -24,7 +24,7 @@
 }
 
 h3 {
-color: #1e1e1e;
+  color: #1e1e1e;
   position: absolute;
   width: 366px;
   height: 36px;
@@ -40,23 +40,21 @@ color: #1e1e1e;
   text-align: center;
 }
 
-h5{
-    position: absolute;
-width: 366px;
-height: 42px;
-left: 537px;
-top: 458px;
+h5 {
+  position: absolute;
+  width: 366px;
+  height: 42px;
+  left: 537px;
+  top: 458px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 21px;
-text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
 
-
-
-color: #7D7E80;
+  color: #7d7e80;
 }
 
 .astronaut {
@@ -66,3 +64,25 @@ color: #7D7E80;
   left: 462px;
   top: 75px;
 }
+
+.buttonSearch {
+  position: absolute;
+  width: 233px;
+  height: 45px;
+  left: 605px;
+  top: 539px;
+
+  border: 1px solid #7d7e80;
+  box-sizing: border-box;
+  border-radius: 8px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #7d7e80;
+}
+
