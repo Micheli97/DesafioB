@@ -1,15 +1,19 @@
 .logo {
   width: 206px;
   height: 76px;
+  margin-top: 33px;
+  margin-left: 138px;
+  margin-bottom: 79px;
 
 }
 
-.imageSide {
+.imageSide{
+ 
   width: 883px;
   height: 715px;
-  left: 557px;
 
-  
+  margin-right: 0px;
+  margin-left: 554px;
 }
 
 .title {
@@ -18,6 +22,9 @@
   
   width: 365px;
   height: 108px;
+
+  margin-left: 138px;
+  margin-bottom: 48px;
   
   font-family: Poppins;
   font-style: normal;
@@ -33,7 +40,7 @@
   width: 365px;
   height: 54px;
 
-  margin-top: 334px;
+  
   margin-right: 937px;
   margin-bottom: 0px;
   margin-left: 138px;
