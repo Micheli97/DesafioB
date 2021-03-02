@@ -1,31 +1,17 @@
 import React from "react";
-import logo from "./image1.png";
-import imageSide from "./light1.png";
-import LoginButton from "./LoginButton";
 import Forms from "./Foms";
+import LoginButton from "./LoginButton";
+import "./Login.css";
 
 function LoginScreen() {
   return (
-      
     <div className="background">
-      <div className="logo">
-        <img src={logo}></img>
-      </div>
-
-      <div>
-        <h1 className="title">Comece a coletar pokemons!</h1>
-      </div>
-
-      {/* <div>
-          <img src={imageSide}></img>
-      </div> */}
-
-
-      <div>
+      {/* Falta arrumar a imagem de background */}
+      
+      <div className="form">
+        <div className="logo"></div>
+        <h2>Comece a coletar pokémons!</h2>
         <Forms></Forms>
-      </div>
-
-      <div>
         <LoginButton></LoginButton>
       </div>
     </div>
