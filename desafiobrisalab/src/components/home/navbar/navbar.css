@@ -19,13 +19,24 @@ li {
   padding-right: 54px;
 }
 
+a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  text-align: center;
+
+  color: #1e1e1f;
+}
+
 .logo {
   width: 75px;
   height: 30px;
 
   margin-top: 8px;
   margin-left: 138px;
-  
 
   background-image: url("./image4.png");
   background-repeat: no-repeat;

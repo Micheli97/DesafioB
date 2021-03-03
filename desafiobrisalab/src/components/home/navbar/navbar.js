@@ -1,30 +1,31 @@
 import React from "react";
-import ExitButton from "./exitbutton";
 import "./navbar.css";
 
-function Navbar() {
-  return (
-    <nav className="navbar">
-      <div className="menu">
-        <div className="logo"></div>
-        <ul>
-          <li>
-            <a>Favorito</a>
-          </li>
-          <li>
-            <a>Procurar</a>
-          </li>
-          <li>
-            <a>Ver todos</a>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <button className="button">Sair</button>
-      </div>
-    </nav>
-  );
+class Navbar extends React.Component{
+  render(){
+    return (
+      <nav className="navbar">
+        <div className="menu">
+          <div className="logo"></div>
+          <ul>
+            <li>
+              <a href="#">Favorito</a>
+            </li>
+            <li>
+              <a href="#">Procurar</a>
+            </li>
+            <li>
+              <a href="#">Ver todos</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div>
+          <button className="button">Sair</button>
+        </div>
+      </nav>
+    );
+  }
 }
 
 export default Navbar;
