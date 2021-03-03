@@ -1,27 +1,28 @@
 .background {
   height: 100%;
   width: 100%;
-  
-  background-image:url("./light1.png");
+
+  background-image: url("./light1.png");
+  background-repeat: no-repeat;
   display: flex;
   position: absolute;
 }
 
-.form{
+.form {
   text-align: left;
   margin-left: 138px;
   margin-top: 33px;
+  
 }
 
-.logo {
+.logoLogin {
   width: 206px;
   height: 76px;
-
   margin-bottom: 79px;
-  background-image:url("./image1.png");
+  background-image: url("./image1.png");
 }
 
-h2{
+h2 {
   width: 365px;
   height: 108px;
 
@@ -36,7 +37,6 @@ h2{
   line-height: 54px;
 
   color: #1e1e1e;
-
 }
 
 .inputEmail {
@@ -66,7 +66,6 @@ h2{
 .loginButton {
   width: 365px;
   height: 54px;
-
 
   background-color: #ffcb05;
   border-radius: 8px;
