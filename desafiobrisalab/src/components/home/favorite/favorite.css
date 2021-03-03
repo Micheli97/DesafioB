@@ -1,0 +1,14 @@
+.body{
+    width: 100%;
+    height: 100%;
+    display: auto;
+}
+.astronaut {
+  width: 516px;
+  height: 344px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  background-image: url("../images/Astronaut-pana1.png");
+
+}

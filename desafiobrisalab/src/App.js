@@ -1,6 +1,6 @@
 import './App.css';
 // import Login from "./components/login/Login"
-import FavoriteScreen from "./components/home/favorite";
+import Favorite from "./components/home/favorite/favorite"
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         {/* <Home></Home> */}
         {/* <Login></Login> */}
-        <FavoriteScreen></FavoriteScreen>
+        <Favorite></Favorite>
        
        
       </header>
