@@ -1,5 +1,46 @@
-.navbar{
-    height: 50px;
-    width: 100%;
-    background-color: #FFCB05;
+.navbar {
+  height: 50px;
+  width: 100%;
+
+  background-color: #ffcb05;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu ul li {
+  display: inline;
+  list-style: none;
+}
+
+li {
+  padding-right: 54px;
+}
+
+.logo {
+  width: 75px;
+  height: 30px;
+
+  margin-top: 8px;
+  margin-left: 138px;
+  
+
+  background-image: url("./image4.png");
+  background-repeat: no-repeat;
+}
+
+.button {
+  width: 89px;
+  height: 28px;
+
+  margin-top: 11px;
+  margin-right: 137px;
+
+  background-color: transparent;
+
+  border: 1px solid #343232;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
