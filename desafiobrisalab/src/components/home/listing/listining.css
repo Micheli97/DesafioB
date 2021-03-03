@@ -1,0 +1,45 @@
+.listButtons{
+    margin-left: 138px;
+    margin-top: 40px;
+    display: flex;
+
+}
+.allButton {
+  width: 145px;
+  height: 42px;
+
+  margin-right: 8px;
+  border: 1px solid #6b6868;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  
+}
+.allButton:active{
+    background-color: #FFCB05;
+}
+.fireButton {
+  width: 145px;
+  height: 42px;
+
+  margin-right: 8px;
+  border: 1px solid #6b6868;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.eletricButton {
+  width: 145px;
+  height: 42px;
+
+  margin-right: 8px;
+  border: 1px solid #6b6868;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.waterButton {
+  width: 145px;
+  height: 42px;
+  border: 1px solid #6b6868;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
