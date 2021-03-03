@@ -4,15 +4,12 @@
 
   background-image: url("./light1.png");
   background-repeat: no-repeat;
-  display: flex;
-  position: absolute;
+  background-position: right;
 }
 
 .form {
   text-align: left;
   margin-left: 138px;
-  margin-top: 33px;
-  
 }
 
 .logoLogin {
