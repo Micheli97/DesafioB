@@ -1,6 +1,7 @@
 import React from 'react'
 import './search.css';
 
+
 class SearchBox extends React.Component{
     constructor(props){
         super(props)
@@ -21,6 +22,8 @@ class SearchBox extends React.Component{
             <div>
                 <form >
                     <input className="searchBox" placeholder="pesquisar..."></input>
+                    
+                    
                 </form>
             </div>
         )

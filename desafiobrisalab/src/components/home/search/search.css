@@ -7,6 +7,7 @@
 .searchBox {
   height: 54px;
   width: 765px;
+  display: flex;
 
   margin-left: auto;
   margin-right: auto;
