@@ -5,16 +5,21 @@ class FormLogin extends React.Component {
     super(props);
     this.state = {
       email: "",
-      password : "",
+      password: "",
     };
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleEmailChange = this.handleEmailChange.bind(this);
+    this.handlePasswordChange = this.handlePasswordChange.bind(this);
   }
 
-  handleChange(event) {
+  handleEmailChange(event) {
     this.setState({
       email: event.target.value,
+    });
+  }
+
+  handlePasswordChange(event) {
+    this.setState({
       password: event.target.value,
     });
   }
@@ -22,17 +27,15 @@ class FormLogin extends React.Component {
   handleSubmit(event) {
     alert(this.state.email, this.state.password);
     event.preventDefault();
-
   }
 
   render() {
     return (
       <div>
         <form>
-
           <label>
             <input
-            placeholder = "email"
+              placeholder="email"
               value={this.state.email}
               onChange={this.handleChange}
               className="inputEmail"
@@ -43,13 +46,13 @@ class FormLogin extends React.Component {
 
           <label>
             <input
-             placeholder = "senha"
+              type="password"
+              placeholder="senha"
               value={this.state.password}
               onChange={this.handleChange}
               className="inputSenha"
             ></input>
           </label>
-
         </form>
       </div>
     );
