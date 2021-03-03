@@ -1,14 +1,46 @@
-.body{
-    width: 100%;
-    height: 100%;
-    display: auto;
+.body {
+  width: 100%;
+  height: 100%;
+  display: auto;
 }
 .astronaut {
   width: 516px;
   height: 344px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 25px;
-  background-image: url("../images/Astronaut-pana1.png");
 
+  background-image: url("../images/Astronaut-pana1.png");
+}
+
+h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #1e1e1f;
+}
+
+h5 {
+  margin-bottom: 39px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #7d7e80;
+  color: #7d7e80;
+}
+
+.searchPokemonsButton {
+  width: 233px;
+  height: 45px;
+  border: 1px solid #7d7e80;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
