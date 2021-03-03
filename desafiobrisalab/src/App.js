@@ -1,6 +1,7 @@
 import './App.css';
 // import Login from "./components/login/Login"
 import Favorite from "./components/home/favorite/favorite"
+import Search from "./components/home/search/search"
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <header className="App-header">
         {/* <Home></Home> */}
         {/* <Login></Login> */}
-        <Favorite></Favorite>
+        {/* <Favorite></Favorite> */}
+        <Search></Search>
        
        
       </header>
