@@ -1,4 +1,7 @@
 import React from "react";
+import {FiLogOut} from "react-icons/fi"
+import IconButton from '@material/react-icon-button';
+import MaterialIcon from '@material/react-material-icon';
 
 import "./navbar.css";
 
@@ -19,8 +22,10 @@ function Navbar() {
           </li>
         </ul>
       </div>
-
-      <button className="exitButton">Sair</button>
+      
+      <button className="exitButton">Sair
+        <FiLogOut></FiLogOut>
+      </button>
     </nav>
   );
 }
