@@ -6,13 +6,33 @@
   display: flex;
 }
 
+.logo {
+  width: 75px;
+  height: 30px;
+
+  margin-top: 8px;
+  margin-left: 138px;
+  
+  background-image: url("./image4.png");
+  background-repeat: no-repeat;
+}
+
 .menu {
   display: flex;
+  margin-top: 8px;
+  margin-right: 100px;
+  margin-left: 100px;
+ 
 }
 
 .menu ul li {
   display: inline;
   list-style: none;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
 }
 
 li {
@@ -31,18 +51,7 @@ a {
   color: #1e1e1f;
 }
 
-.logo {
-  width: 75px;
-  height: 30px;
-
-  margin-top: 8px;
-  margin-left: 138px;
-
-  background-image: url("./image4.png");
-  background-repeat: no-repeat;
-}
-
-.button {
+.exitButton {
   width: 89px;
   height: 28px;
 
@@ -54,4 +63,9 @@ a {
   border: 1px solid #343232;
   box-sizing: border-box;
   border-radius: 8px;
+  display: flex;
+}
+.exitIcon{
+  width: 24px;
+  height: 24px;
 }

@@ -1,4 +1,6 @@
 import React from "react";
+import  sha256 from "crypto-js/sha256";
+import "./Login.css";
 
 class FormLogin extends React.Component {
   constructor(props) {
@@ -10,6 +12,7 @@ class FormLogin extends React.Component {
 
     this.handleEmailChange = this.handleEmailChange.bind(this);
     this.handlePasswordChange = this.handlePasswordChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleEmailChange(event) {
@@ -25,34 +28,43 @@ class FormLogin extends React.Component {
   }
 
   handleSubmit(event) {
-    alert(this.state.email, this.state.password);
     event.preventDefault();
+    const token = this.generateToken(this.state.password)
+    localStorage.setItem("tk", token)
+  }
+
+  generateToken(password){
+    return sha256(password)
   }
 
   render() {
     return (
       <div>
-        <form>
-          <label>
+        <form onSubmit = {this.handleSubmit}>
+          <div>
             <input
               placeholder="email"
               value={this.state.email}
-              onChange={this.handleChange}
+              onChange={this.handleEmailChange}
               className="inputEmail"
             ></input>
-          </label>
+          </div>
 
-          <br></br>
-
-          <label>
+          <div>
             <input
               type="password"
               placeholder="senha"
               value={this.state.password}
-              onChange={this.handleChange}
+              onChange={this.handlePasswordChange}
               className="inputSenha"
             ></input>
-          </label>
+          </div>
+
+          <div>
+            <button className="loginButton" type="submit">
+              Entrar
+            </button>
+          </div>
         </form>
       </div>
     );

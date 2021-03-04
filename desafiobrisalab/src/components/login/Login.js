@@ -1,21 +1,29 @@
 import React from "react";
 import Forms from "./Foms";
-import LoginButton from "./LoginButton";
 
 import "./Login.css";
 
-function LoginScreen() {
-  return (
-    <div className="background">
-      
-      <div className="form">
-        <div className="logoLogin"></div>
-        <h2>Comece a coletar pokémons!</h2>
-        <Forms></Forms>
-       
+class Login extends React.Component{
+  
+  render(){
+
+    const token = localStorage.getItem("tk")
+    if(token){
+      window.location.replace("/pokemon-list")
+      return null
+    }
+
+    return (
+      <div className="background">
+        <div className="form">
+          <div className="logoLogin"></div>
+          <h2>Comece a coletar pokémons!</h2>
+          <Forms></Forms>
+         
+        </div>
       </div>
-    </div>
-  );
+    )
+  }
 }
 
-export default LoginScreen;
+export default Login;

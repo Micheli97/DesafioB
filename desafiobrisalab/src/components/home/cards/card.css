@@ -1,0 +1,89 @@
+
+.card {
+    width: 165px;
+    height: 236px;
+    background: #ffffff;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    display: flex;
+    position: absolute;
+    
+  }
+  
+  .description{
+    text-align: left;
+    margin-left: 9px;
+    
+  }
+  
+  .title {
+    margin-top: 97px;
+    margin-bottom: 0px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+   
+  }
+  
+  .idCard {
+    
+    margin-top: 0px;
+    margin-bottom: 8px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #8e8787;
+    display: flex;
+  }
+  
+  .categoryFire {
+   
+    width: 50.53px;
+    height: 20px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background: #ff3326;
+    border-radius: 8px;
+  }
+  
+  .categoryEletric {
+   
+    width: 50.53px;
+    height: 20px;
+  
+    margin-bottom: 16px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background: #ffcb05;
+    border-radius: 8px;
+  }
+  .seeDetails {
+    width: 147px;
+    height: 32px;
+  
+    background: #ffcb05;
+    border-radius: 8px;
+  }

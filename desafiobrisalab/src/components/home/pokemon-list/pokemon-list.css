@@ -1,8 +1,7 @@
-.listButtons{
-    margin-left: 138px;
-    margin-top: 40px;
-    display: flex;
-
+.listButtons {
+  margin-left: 138px;
+  margin-top: 40px;
+  display: flex;
 }
 .allButton {
   width: 145px;
@@ -12,11 +11,9 @@
   border: 1px solid #6b6868;
   box-sizing: border-box;
   border-radius: 8px;
-
-  
 }
-.allButton:active{
-    background-color: #FFCB05;
+.allButton:active {
+  background-color: #ffcb05;
 }
 .fireButton {
   width: 145px;
@@ -43,3 +40,4 @@
   box-sizing: border-box;
   border-radius: 8px;
 }
+
