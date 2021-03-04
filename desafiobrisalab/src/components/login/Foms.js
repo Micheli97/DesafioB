@@ -1,6 +1,6 @@
 import React from "react";
 import  sha256 from "crypto-js/sha256";
-import "./Login.css";
+import "./login.css";
 
 class FormLogin extends React.Component {
   constructor(props) {

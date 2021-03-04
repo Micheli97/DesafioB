@@ -1,7 +1,7 @@
 import React from "react";
-import Forms from "./Foms";
+import Forms from "./foms";
 
-import "./Login.css";
+import "./login.css";
 
 class Login extends React.Component{
   

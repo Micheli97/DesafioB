@@ -21,7 +21,9 @@ class Navbar extends React.Component{
           </ul>
         </div>
         
-        <button className="exitButton">Sair
+        <button 
+        onClick="/"
+        className="exitButton">Sair
           <FiLogOut className="exit-icon"></FiLogOut>
         </button>
       </nav>
