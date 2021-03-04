@@ -5,6 +5,8 @@
   background-image: url("./light1.png");
   background-repeat: no-repeat;
   background-position: right;
+  display: flex;
+  position: absolute;
 }
 
 .form {
