@@ -57,6 +57,7 @@ a {
 
   margin-top: 11px;
   margin-right: 137px;
+  padding: 5px;
   
   background-color: transparent;
 
@@ -67,6 +68,7 @@ a {
 }
 .exit-icon{
   text-align: center;
+  margin-left: 40px;
   
 
 }
