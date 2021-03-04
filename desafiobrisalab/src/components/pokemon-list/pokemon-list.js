@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "../cards/card";
 import NavBar from "../navbar/navbar";
-import { getPokemons } from "../services/pokemon";
+import { getPokemons } from "../home/services/pokemon";
 import "./pokemon-list.css";
 
 class PokemonList extends React.Component {
@@ -14,18 +14,18 @@ class PokemonList extends React.Component {
       <div>
         <NavBar></NavBar>
 
-        <div className="listButtons">
-          <button className="allButton">Todos</button>
-          <button className="fireButton">Fire</button>
-          <button className="eletricButton">Eletric</button>
-          <button className="waterButton">Water</button>
+        <div className="list-buttons">
+          <button className="button">Todos</button>
+          <button className="button">Fire</button>
+          <button className="button">Eletric</button>
+          <button className="button">Water</button>
         </div>
         
-        <div>
+        {/* <div>
           {this.pokemons.results.map((pokemon) => {
             return <Card name={pokemon.name}></Card>;
           })}
-        </div>
+        </div> */}
       </div>
     );
   }
