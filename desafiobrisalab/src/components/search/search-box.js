@@ -22,8 +22,8 @@ class SearchBox extends React.Component {
     return (
       <div>
         <form className="searchBox">
-          <InputBase placeholder="Pesquisar" />
-          <IconButton className="icon-search" type="submit">
+          <InputBase className="icon-search" placeholder="Pesquisar" />
+          <IconButton c type="submit">
             <SearchIcon />
           </IconButton>
         </form>
