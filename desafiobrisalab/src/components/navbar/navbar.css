@@ -20,8 +20,8 @@
 .menu {
   display: flex;
   margin-top: 8px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
  
 }
 
@@ -57,7 +57,7 @@ a {
 
   margin-top: 11px;
   margin-right: 137px;
-
+  
   background-color: transparent;
 
   border: 1px solid #343232;
@@ -65,7 +65,8 @@ a {
   border-radius: 8px;
   display: flex;
 }
-.exitIcon{
-  width: 24px;
-  height: 24px;
+.exit-icon{
+  text-align: center;
+  
+
 }

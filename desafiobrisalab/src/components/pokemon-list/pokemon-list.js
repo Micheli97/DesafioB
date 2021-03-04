@@ -20,12 +20,12 @@ class PokemonList extends React.Component {
           <button className="button">Eletric</button>
           <button className="button">Water</button>
         </div>
-        
-        {/* <div>
-          {this.pokemons.results.map((pokemon) => {
-            return <Card name={pokemon.name}></Card>;
-          })}
-        </div> */}
+
+        {/* <Card></Card> */}
+
+        {this.pokemons && this.pokemons.results.map((pokemon) => {
+          return <Card name={pokemon.name}></Card>;
+        })}
       </div>
     );
   }
