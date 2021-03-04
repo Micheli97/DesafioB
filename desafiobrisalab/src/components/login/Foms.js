@@ -31,6 +31,7 @@ class FormLogin extends React.Component {
     event.preventDefault();
     const token = this.generateToken(this.state.password)
     localStorage.setItem("tk", token)
+    window.location.href = "/pokemon-list"
   }
 
   generateToken(password){

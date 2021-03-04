@@ -1,31 +1,49 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Card from "../cards/card";
 import NavBar from "../navbar/navbar";
-import { getPokemons } from "../home/services/pokemon";
+import { getPokemons } from "../services/pokemon";
 import "./pokemon-list.css";
 
 class PokemonList extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { pokemons: [] };
+  }
   async componentDidMount() {
-    this.pokemons = await getPokemons();
+    const pokemons = await getPokemons();
+    this.setState({
+      pokemons: pokemons,
+    });
   }
 
   render() {
     return (
       <div>
         <NavBar></NavBar>
+        <div className="content ">
+          <div className="buttons-list">
+            <button className="button">Todos</button>
+            <button className="button">Fire</button>
+            <button className="button">Eletric</button>
+            <button className="button">Water</button>
+          </div>
 
-        <div className="list-buttons">
-          <button className="button">Todos</button>
-          <button className="button">Fire</button>
-          <button className="button">Eletric</button>
-          <button className="button">Water</button>
+          <div className="cards-list">
+            {this.state.pokemons &&
+              this.state.pokemons.map((pokemon) => {
+                return (
+                  <Card
+                  // propriedades dos cards
+                    name={pokemon.name}
+                    img={pokemon.sprites.front_default}
+                    id={pokemon.id}
+                    types={pokemon.types}
+                  ></Card>
+                );
+              })}
+          </div>
         </div>
-
-        {/* <Card></Card> */}
-
-        {this.pokemons && this.pokemons.results.map((pokemon) => {
-          return <Card name={pokemon.name}></Card>;
-        })}
       </div>
     );
   }

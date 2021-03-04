@@ -12,13 +12,13 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 29px;
- 
+
   background: #ffffff;
   border: 1px solid #dee0e3;
   box-sizing: border-box;
   border-radius: 8px;
 }
-.icon-search{
+.input-base {
   margin-left: 15px;
   margin-right: 600px;
 }

@@ -1,15 +1,23 @@
-.list-buttons {
+.content {
   margin-left: 138px;
   margin-top: 40px;
-  display: flex;
+ 
+}
+.buttons-list{
+  margin-bottom: 38px;
+
 }
 .button {
   width: 145px;
   height: 42px;
-
+  
   margin-right: 8px;
   border: 1px solid #6b6868;
   box-sizing: border-box;
   border-radius: 8px;
 }
-
+.cards-list{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
